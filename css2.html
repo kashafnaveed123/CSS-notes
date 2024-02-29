@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS fonts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+<style>
+            #title{ color: rgb(108, 5, 5); background-color: rgb(223, 141, 157);
+                font-family: 'Pacifico', cursive; line-height:0ch; 
+                
+            }
+#primary{
+    font-family: 'Lemon', serif; background-color: aquamarine; color: rgb(101, 10, 10);
+ }
+ .font{ font-family: 'Merriweather', serif;
+ }
+</style>
+</head>
+<body>
+  <h2 id="title">WUFOO</h2><hr>
+    <form action="form" >
+    <h2 id="primary">Termination Checklist</h2>
+    <label for="name" class="font">Employee Name</label><br>
+    <input type="text" placeholder="First Name" required size="10">
+    <input type="text" placeholder="Last Name" size="10"><br><br>
+<label for="Employee ID" class="font" id="ID">Employee ID</label><br>
+<input type="text" required><br><br>
+  <label for="Supervisor Name" class="font">Supervisor Name</label><br>
+  <input type="text" required><br><br>
+  <label for="Department" class="font">Department</label><br>
+  <input type="text" required><br><br>
+  <label for="Exit"  class="font">Exit/Termination Date</label><br>
+   <input type="text" required size="3"> / <input type="text" size="3"> / <input type="text" size="3"><br><br>
+<label for="Car" class="font">Car</label><br>
+<select name="Car" id="Car">
+    <option value="Landcrusior">Landcrusior</option>
+    <option value="Marcedes">Marcedes</option>
+</select><br><br>
+<label for="status" class="font">Martial Status</label><br>
+<label for="Married" class="font">Married</label><input type="radio">
+<label for="Single" class="font">Single</label><input type="radio"><br><br>
+<label for="queries" class="font">Write your queries here</label><br>
+<textarea name="queries" cols="19" rows="3"></textarea><br><br>
+<label for="CV" class="font">Add your CV here </label> <br>
+<input type="file" name="file"><br><br>
+ <label for="submit" class="font">Submit</label> <br><input type="submit"><br><br>
+ <label for="reset" class="font">Reset</label> <br><input type="reset">
+</form>
+</body>
+</html>

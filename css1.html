@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <style>
+        #uni {
+            background-color: aqua;
+            font-weight: 300px;
+            line-height: 3;
+            font-family: 'Lemon', serif;
+        }
+
+        #abc {
+            font-family: 'Rubik Burned', system-ui;
+        }
+
+        .p {
+            font-family: 'Oswald', sans-serif;
+        }
+
+        #email {
+            color: brown;
+            background-color: rgb(198, 200, 207);
+        }
+
+        #bonus {
+            color: rgb(80, 7, 149);
+            background-color: rgb(231, 138, 138);
+        }
+
+        #username {
+            color: rgb(5, 85, 85);
+            background-color: rgb(23, 222, 155);
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="form"></form>
+    <h2 id="uni">Slate University</h2>
+    <h3 id="abc">university for all</h3>
+    <fieldset>
+        <legend>Fill this</legend>
+
+        <label for="email" class="p" id="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input
+            type="email" required><br><br>
+        <label for="bonus" class="p" id="bonus">Bonus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input
+            type="number" required><br><br>
+        <label for="name" class="p" id="username">Username</label>&nbsp;&nbsp;<input type="text" required><br><br>
+        <input type="submit" value="submit">
+    </fieldset>
+    </form>
+</body>
+
+</html>
